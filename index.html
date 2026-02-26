@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">我的网站</div>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首页 Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>你好，我是 <span class="highlight">张三</span></h1>
+            <p class="hero-subtitle">全栈开发者 | 设计爱好者 | 终身学习者</p>
+            <p class="hero-desc">热衷于创建优雅、高效的数字解决方案</p>
+            <a href="#contact" class="btn btn-primary">联系我</a>
+            <a href="#projects" class="btn btn-secondary">查看项目</a>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名充满激情的全栈开发者，拥有5年的软件开发经验。我专注于Web开发，同时也对移动应用和人工智能领域充满兴趣。</p>
+                    <p>我相信代码不仅仅是功能，更是一种艺术。在追求技术卓越的同时，我也注重用户体验和界面设计的美感。</p>
+                    <p>除了编程，我还热爱摄影、阅读和旅行。这些爱好让我保持创造力，并从不同的角度思考问题。</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <strong>姓名：</strong> 张三
+                    </div>
+                    <div class="info-item">
+                        <strong>邮箱：</strong> zhangsan@example.com
+                    </div>
+                    <div class="info-item">
+                        <strong>地点：</strong> 中国，北京
+                    </div>
+                    <div class="info-item">
+                        <strong>状态：</strong> 接受自由职业项目
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">我的技能</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">HTML5</div>
+                    <h3>HTML & CSS</h3>
+                    <p>语义化HTML、响应式布局、CSS动画</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+、Vue.js、React、Node.js</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">PY</div>
+                    <h3>Python</h3>
+                    <p>Django、Flask、数据分析、机器学习</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">DB</div>
+                    <h3>数据库</h3>
+                    <p>MySQL、MongoDB、Redis</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠</div>
+                    <h3>工具 & DevOps</h3>
+                    <p>Git、Docker、CI/CD、Linux</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>设计</h3>
+                    <p>Figma、UI/UX设计、用户体验</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">项目展示</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>电商平台</h3>
+                        <p>一个功能完整的在线购物平台，支持商品展示、购物车、订单管理和支付功能。</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image project-image-2"></div>
+                    <div class="project-content">
+                        <h3>任务管理系统</h3>
+                        <p>帮助团队高效协作的任务管理工具，支持看板视图、任务分配和进度跟踪。</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Django</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image project-image-3"></div>
+                    <div class="project-content">
+                        <h3>个人博客系统</h3>
+                        <p>支持Markdown写作的轻量级博客系统，具有优美的阅读体验和SEO优化。</p>
+                        <div class="project-tags">
+                            <span>Next.js</span>
+                            <span>MDX</span>
+                            <span>Vercel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我 -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>如果你对我的项目感兴趣，或者想要合作，欢迎通过以下方式联系我：</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>zhangsan@example.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+86 138 0000 0000</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>中国，北京</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="您的姓名" required>
+                    <input type="email" placeholder="您的邮箱" required>
+                    <textarea placeholder="您的留言" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 张三. 保留所有权利。</p>
+        </div>
+    </footer>
+
+    <script>
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // 表单提交（演示）
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('感谢您的留言！我会尽快回复您。');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
