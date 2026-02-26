@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sL \"https://my.feishu.cn/wiki/QVKTwCz0NiRBs6kwa4zcTf8hnah\")",
+      "Bash(git --version)",
+      "Bash(git init)",
+      "Bash(git add index.html styles.css)",
+      "Bash(git commit -m \"Initial commit: Personal website\")",
+      "Bash(git config --global user.email \"lxd5201314-ui@users.noreply.github.com\")",
+      "Bash(git config --global user.name \"lxd5201314-ui\")",
+      "Bash(git remote add origin https://github.com/lxd5201314-ui/testbyleolee.git)",
+      "Bash(git push -u origin master)",
+      "Bash(git add index.html)",
+      "Bash(git commit -m \"Update name to 李四\")",
+      "Bash(git push origin master)",
+      "Bash(git add .)",
+      "Bash(git commit -m \"Reorganize folder structure\")"
+    ]
+  }
+}
